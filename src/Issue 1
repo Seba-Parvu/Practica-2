@@ -1,0 +1,11 @@
+const int LDR_PIN = 34;
+
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  int valor = analogRead(LDR_PIN);
+  Serial.println(valor);
+  delay(2000);
+}
