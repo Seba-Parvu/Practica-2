@@ -1,1 +1,3 @@
-# Practica-2
+Aquesta pràctica consisteix en crear un sistema senzill per controlar les condicions d’una sala de servidors utilitzant una ESP32. Es fan servir dos sensors: un sensor de temperatura (LM35) i un sensor de llum (LDR).
+L’ESP32 llegeix els valors dels sensors a través de les entrades analògiques i els mostra pel Monitor Sèrie. Si la temperatura és massa alta o es detecta llum, el sistema activa un LED i envia un missatge d’alerta.
+A més, l’usuari pot interactuar amb el sistema escrivint comandes per veure l’estat actual o apagar el LED. Amb aquesta pràctica s’aprèn a treballar amb sensors, llegir dades analògiques i crear un sistema bàsic de control i alertes.
